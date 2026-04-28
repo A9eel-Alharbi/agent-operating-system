@@ -39,7 +39,7 @@ With this system, you type one command (like `/1`) and the agent reads your exac
 
 ## 🚀 How to Use This Scaffold
 
-This repository is already pre-built with the 30 files you need.
+This repository is already pre-built with the 31 files you need.
 
 1. **Clone this repository** (or click "Use this template" if viewing on GitHub).
 2. Open the **`.aos/`** vault directory.

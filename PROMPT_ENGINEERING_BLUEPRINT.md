@@ -1,4 +1,4 @@
-# Agent Operating System (AOS) — The CDD Template
+# Agent Operating System (AOS): The 5-Layer CDD Framework
 
 ## Build Any Software Project with AI Agents — One Command at a Time
 

@@ -1,8 +1,8 @@
-# Agent Operating System (AOS)
+# Agent Operating System (AOS): The 5-Layer CDD Framework
 
 > Stop writing prompts. Start building an Agent Operating System.
 
-Welcome to the **Agent Operating System (AOS)**. This is a reusable template that implements **Constraint-Driven Development (CDD)**—turning any software idea into an airtight, highly disciplined project vault that AI coding agents (like Cursor, Claude, Codex, or Gemini) can execute **flawlessly**.
+Welcome to the **Agent Operating System (AOS)**. This is a reusable, **5-Layer Execution Architecture** that implements **Constraint-Driven Development (CDD)**—turning any software idea into an airtight, highly disciplined project vault that AI coding agents (like Cursor, Claude, Codex, or Gemini) can execute **flawlessly**.
 
 If you've ever asked an AI to build a feature, only to have it hallucinate database schemas, skip tests, or break existing code, this is for you.
 

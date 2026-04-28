@@ -37,14 +37,18 @@ With this system, you type one command (like `/1`) and the agent reads your exac
 4. **Layer 4: Context (What to Load)**: Tells the agent exactly which docs to read depending on the task. Includes the **Done Criteria** quality gate.
 5. **Layer 5: Commands (Frictionless)**: Maps your execution steps to simple commands.
 
-## 🚀 How to Use This Template
+## 🚀 How to Use This Scaffold
 
-1. Open `PROMPT_ENGINEERING_BLUEPRINT.md`.
-2. Copy the entire file or use it as a reference to create your own project vault.
-3. Replace every `[bracket]` with your project's specific details.
-4. Start filling out Layer 1, then Layer 2, until you reach Layer 5.
-5. Open your IDE with an AI agent.
+This repository is already pre-built with the 29 files you need.
+
+1. **Clone this repository** (or click "Use this template" if viewing on GitHub).
+2. Look at the files: you will see `01_[Project]_Complete_Spec.md`, `16_[Project]_ERD.md`, etc.
+3. Open each file and replace every `[bracket]` with your project's specific details.
+4. Work through Layer 1, then Layer 2, until you reach Layer 5.
+5. Open your IDE with an AI agent (Cursor, Claude Code, Gemini, etc).
 6. Type `/1`. Watch the magic happen.
+
+*(Note: The full `PROMPT_ENGINEERING_BLUEPRINT.md` is included in the root folder as a master reference manual.)*
 
 ## 💡 Example Execution Flow
 

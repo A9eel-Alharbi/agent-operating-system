@@ -42,11 +42,12 @@ With this system, you type one command (like `/1`) and the agent reads your exac
 This repository is already pre-built with the 29 files you need.
 
 1. **Clone this repository** (or click "Use this template" if viewing on GitHub).
-2. Look at the files: you will see `01_[Project]_Complete_Spec.md`, `16_[Project]_ERD.md`, etc.
-3. Open each file and replace every `[bracket]` with your project's specific details.
+2. Open the **`.aos/`** vault directory.
+3. Open each file (`01_[Project]_Complete_Spec.md`, `16_[Project]_ERD.md`, etc.) and replace every `[bracket]` with your project's specific details.
 4. Work through Layer 1, then Layer 2, until you reach Layer 5.
 5. Open your IDE with an AI agent (Cursor, Claude Code, Gemini, etc).
-6. Type `/1`. Watch the magic happen.
+6. Tell your agent to read `AI_ONBOARDING.md` so it understands the system.
+7. Type `/1`. Watch the magic happen.
 
 *(Note: The full `PROMPT_ENGINEERING_BLUEPRINT.md` is included in the root folder as a master reference manual.)*
 
@@ -55,11 +56,11 @@ This repository is already pre-built with the 29 files you need.
 When you type `/7` into your agent, here is what happens under the hood:
 
 1. **Layer 5**: Agent reads `AGENTS.md`, finds the command, and sees the scope.
-2. **Layer 4**: Agent loads the specific context pack and the "Done Criteria" checklist.
-3. **Layer 1**: Agent reads your spec to understand the business logic.
-4. **Layer 2**: Agent reads `16_ERD.md` to get exact table names. It reads `17_API_Contracts.md` to get exact JSON return shapes. It reads `18_Testing_Strategy.md` to know it needs to write 15 unit tests.
-5. **Layer 3**: Agent follows the specific prompt in `14_Runbook.md` and stops exactly at the "out of scope" boundary.
-6. **Result**: Agent writes the code, runs the tests, summarizes the changes, and automatically updates `PROGRESS.md`.
+2. **Layer 4**: Agent loads the specific context pack and the "Done Criteria" checklist from `.aos/agent-contexts/`.
+3. **Layer 1**: Agent reads your spec from `.aos/` to understand the business logic.
+4. **Layer 2**: Agent reads `.aos/16_ERD.md` to get exact table names. It reads `.aos/17_API_Contracts.md` to get exact JSON return shapes. It reads `.aos/18_Testing_Strategy.md` to know it needs to write 15 unit tests.
+5. **Layer 3**: Agent follows the specific prompt in `.aos/14_Runbook.md` and stops exactly at the "out of scope" boundary.
+6. **Result**: Agent writes the code, runs the tests, summarizes the changes, and automatically updates `PROGRESS.md` in the root.
 
 ## 🤝 Contribution
 

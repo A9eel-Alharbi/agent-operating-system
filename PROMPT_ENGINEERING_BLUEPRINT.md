@@ -949,6 +949,7 @@ your-project/
 │       └── work-package-template.md
 ├── src/                                 ← Your actual app code goes here
 ├── AGENTS.md                            Layer 5: Commands
+├── AI_ONBOARDING.md                     System guide for AI agents
 ├── CLAUDE.md                            Layer 5: Commands (Claude)
 ├── PROGRESS.md                          Progress tracker
 ├── PROMPT_ENGINEERING_BLUEPRINT.md      Master reference manual

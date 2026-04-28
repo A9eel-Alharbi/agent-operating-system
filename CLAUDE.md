@@ -7,12 +7,12 @@ When the user types /1, /2, etc., execute that work package.
 1. Read ALL source files before starting
 1b. Read PROGRESS.md first
 2. Implement ONLY the specified WP
-3. Match schema from 16_[Project]_ERD.md
-4. Match API from 17_[Project]_API_Contracts.md
-5. Write tests per 18_[Project]_Testing_Strategy.md
-6. Use test data from 19_[Project]_Test_Data.md
-7. Follow security from 20_[Project]_Security.md
-8. Follow CI/CD from 22_[Project]_CI_CD.md
+3. Match schema from .aos/16_[Project]_ERD.md
+4. Match API from .aos/17_[Project]_API_Contracts.md
+5. Write tests per .aos/18_[Project]_Testing_Strategy.md
+6. Use test data from .aos/19_[Project]_Test_Data.md
+7. Follow security from .aos/20_[Project]_Security.md
+8. Follow CI/CD from .aos/22_[Project]_CI_CD.md
 9. Report: files, tests, blockers
 10. Update PROGRESS.md — mark WP as [x]
 

@@ -920,36 +920,39 @@ Don't review every WP. Review the ones where mistakes are expensive:
 
 ```
 your-project/
-├── 01_[Project]_Complete_Spec.md        Layer 1: Master vision
-├── 02_[Project]_Feature_Inventory.md    Layer 1: All features
-├── 03_[Project]_Scope_Map.md            Layer 1: MVP vs later
-├── 04_[Project]_Build_Target.md         Layer 1: What to build
-├── 05_[Project]_Build_Order.md          Layer 1: Sequence
-├── 06_[Project]_System_Parts.md         Layer 1: Architecture
-├── 07_[Project]_Stack_Cost.md           Layer 1: Tech + pricing
-├── 10_[Project]_Risk_Register.md        Layer 1: Risks
-├── 11_[Project]_Agent_Workflows.md      Layer 1: Agent ops
-├── 16_[Project]_ERD.md                  Layer 2: DB schema
-├── 17_[Project]_API_Contracts.md        Layer 2: API shapes
-├── 18_[Project]_Testing_Strategy.md     Layer 2: Test plan
-├── 19_[Project]_Test_Data.md            Layer 2: Test data
-├── 20_[Project]_Security.md             Layer 2: Security
-├── 21_[Project]_ADR_Register.md         Layer 2: Tech decisions
-├── 22_[Project]_CI_CD.md                Layer 2: Git + CI
-├── 08_[Project]_WBS.md                  Layer 3: Work packages
-├── 12_[Project]_Prompt_Templates.md     Layer 3: Prompt patterns
-├── 13_[Project]_Playbook.md             Layer 3: Operating guide
-├── 14_[Project]_Runbook.md              Layer 3: MVP execution ★
-├── 15_[Project]_Full_Runbook.md         Layer 3: Post-MVP execution
-├── agent-contexts/
-│   ├── mvp-context.md                   Layer 4: MVP doc list
-│   ├── full-context.md                  Layer 4: Full doc list
-│   ├── done-criteria.md                 Layer 4: Quality gate
-│   └── work-package-template.md         Layer 4: WP checklist
+├── .aos/                                ← The AOS methodology vault
+│   ├── 01_[Project]_Complete_Spec.md    Layer 1: Master vision
+│   ├── 02_[Project]_Feature_Inventory.md
+│   ├── 03_[Project]_Scope_Map.md
+│   ├── 04_[Project]_Build_Target.md
+│   ├── 05_[Project]_Build_Order.md
+│   ├── 06_[Project]_System_Parts.md
+│   ├── 07_[Project]_Stack_Cost.md
+│   ├── 08_[Project]_WBS.md              Layer 3: Work packages
+│   ├── 10_[Project]_Risk_Register.md
+│   ├── 11_[Project]_Agent_Workflows.md
+│   ├── 12_[Project]_Prompt_Templates.md
+│   ├── 13_[Project]_Playbook.md
+│   ├── 14_[Project]_Runbook.md          Layer 3: MVP execution ★
+│   ├── 15_[Project]_Full_Runbook.md
+│   ├── 16_[Project]_ERD.md              Layer 2: DB schema
+│   ├── 17_[Project]_API_Contracts.md
+│   ├── 18_[Project]_Testing_Strategy.md
+│   ├── 19_[Project]_Test_Data.md
+│   ├── 20_[Project]_Security.md
+│   ├── 21_[Project]_ADR_Register.md
+│   ├── 22_[Project]_CI_CD.md
+│   └── agent-contexts/                  Layer 4: Context blocks
+│       ├── mvp-context.md
+│       ├── full-context.md
+│       ├── done-criteria.md
+│       └── work-package-template.md
+├── src/                                 ← Your actual app code goes here
 ├── AGENTS.md                            Layer 5: Commands
 ├── CLAUDE.md                            Layer 5: Commands (Claude)
 ├── PROGRESS.md                          Progress tracker
-└── README.md                            Reading guide
+├── PROMPT_ENGINEERING_BLUEPRINT.md      Master reference manual
+└── README.md
 ```
 
 **29 files. 5 layers. 1 command per work package.**

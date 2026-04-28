@@ -4,19 +4,19 @@
 [Copy this, then append the WP prompt]
 
 Source of truth:
-- 01_[Project]_Complete_Spec.md
-- 04_[Project]_Build_Target.md
-- 08_[Project]_WBS.md
-- 10_[Project]_Risk_Register.md
-- agent-contexts/done-criteria.md
+- .aos/01_[Project]_Complete_Spec.md
+- .aos/04_[Project]_Build_Target.md
+- .aos/08_[Project]_WBS.md
+- .aos/10_[Project]_Risk_Register.md
+- .aos/agent-contexts/done-criteria.md
 
 Implementation references:
-- 16_[Project]_ERD.md
-- 17_[Project]_API_Contracts.md
-- 18_[Project]_Testing_Strategy.md
-- 19_[Project]_Test_Data.md
-- 20_[Project]_Security.md
-- 22_[Project]_CI_CD.md
+- .aos/16_[Project]_ERD.md
+- .aos/17_[Project]_API_Contracts.md
+- .aos/18_[Project]_Testing_Strategy.md
+- .aos/19_[Project]_Test_Data.md
+- .aos/20_[Project]_Security.md
+- .aos/22_[Project]_CI_CD.md
 
 Requirements:
 - match schema, match API contracts, write tests

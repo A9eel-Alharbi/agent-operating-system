@@ -3,11 +3,11 @@
 ## Shared Preamble (Full Project)
 
 Source of truth:
-- 01_[Project]_Complete_Spec.md
-- 02_[Project]_Feature_Inventory.md
-- 09_[Project]_Full_WBS.md
-- agent-contexts/full-context.md
-- agent-contexts/done-criteria.md
+- .aos/01_[Project]_Complete_Spec.md
+- .aos/02_[Project]_Feature_Inventory.md
+- .aos/09_[Project]_Full_WBS.md
+- .aos/agent-contexts/full-context.md
+- .aos/agent-contexts/done-criteria.md
 
 Implementation references:
 - 16-22 (same as MVP)

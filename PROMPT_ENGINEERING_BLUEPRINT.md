@@ -1,4 +1,4 @@
-# 5-Layer Agentic Execution Architecture
+# Agent Operating System (AOS) — The CDD Template
 
 ## Build Any Software Project with AI Agents — One Command at a Time
 

@@ -1,8 +1,8 @@
-# 5-Layer Agentic Execution Architecture
+# Agent Operating System (AOS)
 
 > Stop writing prompts. Start building an Agent Operating System.
 
-Welcome to the **5-Layer Agentic Execution Architecture**. This is a reusable template that turns any software idea into an airtight, highly disciplined project vault that AI coding agents (like Cursor, Claude, Codex, or Gemini) can execute **flawlessly**.
+Welcome to the **Agent Operating System (AOS)**. This is a reusable template that implements **Constraint-Driven Development (CDD)**—turning any software idea into an airtight, highly disciplined project vault that AI coding agents (like Cursor, Claude, Codex, or Gemini) can execute **flawlessly**.
 
 If you've ever asked an AI to build a feature, only to have it hallucinate database schemas, skip tests, or break existing code, this is for you.
 
@@ -14,7 +14,7 @@ Most developers treat AI agents like junior devs: they chat with them, give them
 - **"Done" without Verification**: The agent writes code but skips writing or running tests.
 - **Context Loss**: You run out of tokens, start a new chat, and the agent forgets your architecture.
 
-**The Solution?** Don't write a single prompt. Build a 5-layer vault of constraints. 
+**The Solution? Constraint-Driven Development (CDD).** Don't write a single prompt. Build a 5-layer vault of constraints. 
 
 With this system, you type one command (like `/1`) and the agent reads your exact schema, your exact API contracts, and your exact test requirements before writing a single line of code.
 

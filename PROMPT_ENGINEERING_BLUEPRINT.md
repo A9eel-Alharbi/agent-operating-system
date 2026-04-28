@@ -962,7 +962,7 @@ your-project/
 
 # QUICK START
 
-1. Copy this template
+1. Clone this repository (it comes with the `.aos/` vault pre-built)
 2. Replace all `[brackets]` with your project details
 3. Start with **Layer 1** — write the spec and features
 4. Then **Layer 2** — define ERD, API contracts, tests, security

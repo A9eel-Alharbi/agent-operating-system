@@ -62,6 +62,8 @@ When you type `/7` into your agent, here is what happens under the hood:
 5. **Layer 3**: Agent follows the specific prompt in `.aos/14_Runbook.md` and stops exactly at the "out of scope" boundary.
 6. **Result**: Agent writes the code, runs the tests, summarizes the changes, and automatically updates `PROGRESS.md` in the root.
 
+*(Note: Why the weird order? The layers are numbered by how **you** build them (1 to 5). But the list above is the exact chronological order the **AI** reads them when executing a command!)*
+
 ## 🤝 Contribution
 
 This is an open-source template. Have ideas on how to improve the constraints or the agent syntax? Open an issue or submit a PR!

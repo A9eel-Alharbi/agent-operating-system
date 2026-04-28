@@ -877,6 +877,8 @@ Layer 3 → Follows WP-01 prompt, stops at "out of scope"
 Output  → Code + tests + summary → PROGRESS.md updated
 ```
 
+*(Note: The layers are processed in 5 → 4 → 1 → 2 → 3 order. You build the architecture from 1 to 5, but the AI executes it top-down starting from the command.)*
+
 ---
 
 # OPERATIONAL GUIDANCE
